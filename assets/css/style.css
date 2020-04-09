@@ -1,0 +1,416 @@
+body {
+font-family: 'Ubuntu', sans-serif;
+} 
+
+/* //////////////////////////navbar  */
+
+.main-navbar {
+    display: flex;
+    align-items: center;
+    background-color: #fcd132;
+    padding: 25px;
+}
+.navbar-logo {
+    flex-basis: 20%;
+    text-align: center;
+    position: relative;
+}
+.navbar-logo> a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #363635;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-20%, -50%);
+}
+.navbar-logo> a>img {
+    height: 40px;
+}
+.centered-links {
+    flex-basis: 60%;
+}
+.centered-links>ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+.centered-links ul li{
+    list-style: none;
+}
+.centered-links ul li a {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav-a {
+    flex-basis: 20%;
+    text-align: center;
+   
+}
+
+.nav-a a {
+    color:white;
+    background-color: #f81800;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+}
+.bg-color {
+    background-color: #fcd132;
+}
+.navigation {
+    display: none;
+}
+
+  
+
+
+/* header------------------------------------- */
+.pic1 {
+    background-image: url("../images/2O0IOI1DA8.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.header-padding {
+    padding: 170px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-size: 60px;
+}
+
+/* tri podelbi na akademija--------------- */
+
+.bg-color1{
+    text-align: left;
+    background-color: #302e38;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    border-right: 1px solid #555555;
+    position: relative;
+    cursor: pointer;
+}
+
+.bg-color1 p {
+    margin: 0;
+}
+.icon-style{
+  
+    color: #302e38;
+    position: absolute;
+    right: 15%;
+    top: 50%;
+    transform: translate(-15%, -50%);
+}
+
+ .active{
+    background-color: #eb3b3b;
+    color: #302e38;
+   
+}
+
+
+
+/* karticki -------------------- */
+
+.h2-style {
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+}
+button:focus { 
+    outline-style: none; 
+}
+.thumbnail {
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.thumbnail .caption {
+    padding: 15px;
+}
+.img-kartica-style {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.thumbnail:hover {
+    transform: scale(1.03);
+}
+.font-zdebelen {
+    font-weight: bold; 
+}
+.golemina {
+    font-size: 11px;
+}
+.button-style-karticka {
+    background-color: #f81800;
+    border-color: #f81800;
+}
+.button-style-karticka:hover {
+    background-color: #f81800;
+    border-color: #f81800;
+}
+
+/* forma ----------------- //////////////////////////////////////////*/
+.padding-bottom {
+    padding-bottom: 30vh;
+}
+.h1-style {
+    padding: 100px 0 ;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.icon-form-style{ 
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.button-text-left {
+    text-align: left;
+}
+.padding-style {
+    padding: 25px;
+}
+.form-button {
+    height: 59px;
+    margin-top: 25px;
+    background-color: #f81800;
+    color: white;
+}
+
+ /* select ------------------ */
+.div-select {
+    position: relative;
+}
+.my-select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    height: 59px;
+    padding-left: 25px;
+    font-weight: bolder;
+}
+.div-select::after{
+   content: " \f078";
+   font-family: "fontAwesome";
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    pointer-events: none;
+}
+.before-option::before {
+    content: "div-prazen"
+}
+
+.option1 {
+    visibility: hidden;
+    
+}
+/* footer --------- */
+
+
+.heart-red {
+    color: red;
+
+}
+.bg-color-black {
+    background-color: #302e38;
+}
+.color-white {
+    color: white;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    /* ///////////// NAV BAR ///////////// */
+    .navbar-logo {
+        flex-basis: 15%;
+    }
+    .navbar-logo> a {
+        left: 10%;
+        font-size: 9px;
+    }
+    .centered-links {
+        flex-basis: 70%;
+    }
+    .centered-links>ul>li>a {
+        font-size: 11px;
+    }
+    .nav-a>a {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .bg-color-black {
+        padding: 5px;
+    }
+/* /////////////////// HEADERRRR//////////// */
+    .header-padding {
+        padding: 90px;
+    }
+
+    /* /////////////////////////////////  TRI PODELBI*/
+.bg-color1 {
+    border-right: none;
+    border-bottom: 1px solid #555555;
+}
+.active {
+    border: none;
+}
+/* //////////KARTICI////////////// */
+.thumbnail>img {
+    border-top-right-radius: none;
+    margin-left: 0;
+}
+.img-kartica-style {
+   
+    border-radius: 10px;
+    
+}
+
+
+/* /////////  header forma ///// */
+.h1-style {
+    padding: 20px;
+    font-size: 40px;
+}
+}
+
+@media (max-width: 425px){
+
+    .centered-links {
+        display: none;
+    }
+    .nav-a {
+        display: none;
+    }
+    .navigation {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+      }
+      
+      .toggle-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 40px;
+        align-items: flex-end;
+      }
+      
+      .toggle-nav:hover {
+        cursor: pointer;
+      }
+      
+      .toggle-nav div {
+        width: 100%;
+        height: 6px;
+        border-radius: 3px;
+        background-color: #302f38;
+        margin: 3px;
+      }
+      
+      .toggle-nav div:nth-child(2) {
+        width: 75%;
+      }
+      
+      .toggle-nav div:nth-child(3) {
+        width: 50%;
+      }
+      
+      .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+      
+        z-index: 100;
+        height: 100%;
+      
+        background-color: #302e38;
+      
+        display: flex;
+        flex-direction: column;
+      
+        width: 0;
+        overflow-x: hidden;
+      
+        transition: width 0.35s ease-in-out;
+      }
+      
+      .sidebar a{
+        color: white;
+        padding: 20px;
+        font-size: 1.3em;
+        text-decoration: none;
+        transition: 0.5s;
+        white-space: nowrap;
+        cursor: pointer;
+      }
+  
+      .sidebar>a>i {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+      }
+      .nav-a-sidebar {
+        margin-top:20px;
+      }
+      .nav-a-sidebar a {
+        margin-left: 20px; 
+        color:white;
+        background-color: #f81800;
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+/* header------- */
+
+.header-padding {
+    padding: 65px 0;
+    font-size: 44px;
+    font-weight: bolder;
+}
+/* tri butoni-------------- */
+
+.icon-style {
+    right: 3%;
+}
+.h2-style {
+    text-align: left;
+}
+
+}
+
+@media (max-width: 375px) {
+    .nav-a-sidebar a {
+        font-size: 12px;
+        }
+}
+@media (max-width: 320px) {
+    .nav-a-sidebar a{
+        font-size: 10px;
+        }
+}

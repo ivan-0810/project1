@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Бреинстер</title>
+    <meta name="keywords" content="html,css,lekcii" />
+    <meta name="description" content="ova e strana za ucenje" />
+    <meta name="author" content="Ivan Ivanov" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <!-- Latest compiled and minified BOOTSTRAP CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <!-- Local CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- Font-awesome 4.7 cdn -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--load all styles -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-navbar">
+      <div class="navbar-logo">
+        <a href="https://brainster.co"><img src="assets/images/default.png" alt=""> <br>BRAINSTER</a>
+      </div>
+      <div class="centered-links">
+          <ul >
+            <li>
+              <a href="https://www.brainster.io/marketpreneurs"
+                >Академија за маркетинг</a
+              >
+            </li>
+            <li>
+              <a href="http://codepreneurs.co/">Академија за програмирање</a>
+            </li>
+            <li>
+              <a href="https://www.brainster.io/design">Академија за дизајн</a>
+            </li>
+          </ul>
+      </div>
+      <div class="navigation">
+          <div onclick="showSidebar()" class="toggle-nav">
+              <div></div>
+              <div></div>
+              <div></div>
+          </div>
+
+          <div class="sidebar">
+              <a onclick="closeSidebar()"><i class="fa fa-times"></i></a>
+              <a href="https://www.brainster.io/marketpreneurs">Академија за маркетинг</a>
+              <a href="http://codepreneurs.co/">Академија за програмирање</a>
+              <a href="https://www.brainster.io/design">Академија за дизајн</a>
+             
+              <div class="nav-a-sidebar">
+                  <a href="form.html" >Вработи наш студент</a>
+              </div>
+               
+          </div>
+      </div>
+      <div class="nav-a">
+          <a href="form.html" >Вработи наш студент</a>
+      </div>
+
+    </div>
+
+
+    <div class="container-fluid pic1">
+      <div class="row overlay">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <h1 class="text-center header-padding">Brainster Labs</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          onclick="setActive('marketing')"
+          class="col-md-4 col-sm-12 col-xs-12 bg-color1 active div-filter"
+          href="#"
+        >
+          <p>Проекти на студенти по академијата <br />за маркетинг</p>
+          <i class="fa fa-check-circle fa-2x icon-style" aria-hidden="true"></i>
+        </div>
+        <div
+          onclick="setActive('developer')"
+          class="col-md-4 col-sm-12 col-xs-12 bg-color1 div-filter"
+          href="#"
+        >
+          <p>Проекти на студенти по академијата <br />за маркетинг</p>
+          <i class="fa fa-check-circle fa-2x icon-style" aria-hidden="true"></i>
+        </div>
+        <div
+          onclick="setActive('design')"
+          class="col-md-4 col-sm-12 col-xs-12 bg-color1 div-filter"
+          href="#"
+        >
+          <p>Проекти на студенти по академијата <br />за маркетинг</p>
+          <i class="fa fa-check-circle fa-2x icon-style" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-color">
+      <div class="row">
+        <div class="col-md-12 col-xs-12">
+          <h2 class="text-center text-center h2-style">Проекти</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div
+          class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0"
+        >
+          <div class="row">
+            <div class="col-md-4 col-xs-12 card-holder marketing">
+              <div class="thumbnail">
+                <img
+                  src="assets/images/MEDIALY3UV.jpg"
+                  alt="#"
+                  class="img-kartica-style"
+                />
+                <div class="caption">
+                  <button class="btn btn-default bg-color">
+                    Академија за Маркетинг
+                  </button>
+                  <h2 class="font-zdebelen">
+                    Име на проектот стои овде во две линии
+                  </h2>
+                  <p>
+                    Краток опис во кој студентите ке можат да опишат за што се
+                    работи во проектот.
+                  </p>
+
+                  <p class="font-zdebelen golemina">Април-Октомври 2019</p>
+                  <div class="text-right">
+                    <button
+                      class="btn btn-default btn-danger button-style-karticka"
+                    >
+                      Дознај Повеќе
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-xs-12 card-holder marketing">
+                <div class="thumbnail">
+                  <img
+                    src="assets/images/MEDIALY3UV.jpg"
+                    alt="#"
+                    class="img-kartica-style"
+                  />
+                  <div class="caption">
+                    <button class="btn btn-default bg-color">
+                      Академија за Маркетинг
+                    </button>
+                    <h2 class="font-zdebelen">
+                      Име на проектот стои овде во две линии
+                    </h2>
+                    <p>
+                      Краток опис во кој студентите ке можат да опишат за што се
+                      работи во проектот.
+                    </p>
+  
+                    <p class="font-zdebelen golemina">Април-Октомври 2019</p>
+                    <div class="text-right">
+                      <button
+                        class="btn btn-default btn-danger button-style-karticka"
+                      >
+                        Дознај Повеќе
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-xs-12 card-holder marketing">
+                  <div class="thumbnail">
+                    <img
+                      src="assets/images/MEDIALY3UV.jpg"
+                      alt="#"
+                      class="img-kartica-style"
+                    />
+                    <div class="caption">
+                      <button class="btn btn-default bg-color">
+                        Академија за Маркетинг
+                      </button>
+                      <h2 class="font-zdebelen">
+                        Име на проектот стои овде во две линии
+                      </h2>
+                      <p>
+                        Краток опис во кој студентите ке можат да опишат за што се
+                        работи во проектот.
+                      </p>
+    
+                      <p class="font-zdebelen golemina">Април-Октомври 2019</p>
+                      <div class="text-right">
+                        <button
+                          class="btn btn-default btn-danger button-style-karticka"
+                        >
+                          Дознај Повеќе
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xs-12 card-holder marketing">
+                    <div class="thumbnail">
+                      <img
+                        src="assets/images/MEDIALY3UV.jpg"
+                        alt="#"
+                        class="img-kartica-style"
+                      />
+                      <div class="caption">
+                        <button class="btn btn-default bg-color">
+                          Академија за Маркетинг
+                        </button>
+                        <h2 class="font-zdebelen">
+                          Име на проектот стои овде во две линии
+                        </h2>
+                        <p>
+                          Краток опис во кој студентите ке можат да опишат за што се
+                          работи во проектот.
+                        </p>
+      
+                        <p class="font-zdebelen golemina">Април-Октомври 2019</p>
+                        <div class="text-right">
+                          <button
+                            class="btn btn-default btn-danger button-style-karticka"
+                          >
+                            Дознај Повеќе
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            <div class="col-md-4 col-xs-12 card-holder developer">
+              <div class="thumbnail">
+                <img
+                  src="assets/images/DRHFQYCYRY.jpg"
+                  alt="#"
+                  class="img-kartica-style"
+                />
+                <div class="caption">
+                  <button class="btn btn-default bg-color">
+                    Академија за Програмирање
+                  </button>
+                  <h2 class="font-zdebelen">
+                    Име на проектот стои овде во две линии
+                  </h2>
+                  <p>
+                    Краток опис во кој студентите ке можат да опишат за што се
+                    работи во проектот.
+                  </p>
+
+                  <p class="font-zdebelen golemina">Април-Октомври 2019</p>
+                  <div class="text-right">
+                    <button
+                      class="btn btn-default btn-danger button-style-karticka"
+                    >
+                      Дознај Повеќе
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-xs-12 card-holder developer">
+                <div class="thumbnail">
+                  <img
+                    src="assets/images/DRHFQYCYRY.jpg"
+                    alt="#"
+                    class="img-kartica-style"
+                  />
+                  <div class="caption">
+                    <button class="btn btn-default bg-color">
+                      Академија за Програмирање
+                    </button>
+                    <h2 class="font-zdebelen">
+                      Име на проектот стои овде во две линии
+                    </h2>
+                    <p>
+                      Краток опис во кој студентите ке можат да опишат за што се
+                      работи во проектот.
+                    </p>
+  
+                    <p class="font-zdebelen golemina">Април-Октомври 2019</p>
+                    <div class="text-right">
+                      <button
+                        class="btn btn-default btn-danger button-style-karticka"
+                      >
+                        Дознај Повеќе
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-xs-12 card-holder developer">
+                  <div class="thumbnail">
+                    <img
+                      src="assets/images/DRHFQYCYRY.jpg"
+                      alt="#"
+                      class="img-kartica-style"
+                    />
+                    <div class="caption">
+                      <button class="btn btn-default bg-color">
+                        Академија за Програмирање
+                      </button>
+                      <h2 class="font-zdebelen">
+                        Име на проектот стои овде во две линии
+                      </h2>
+                      <p>
+                        Краток опис во кој студентите ке можат да опишат за што се
+                        работи во проектот.
+                      </p>
+    
+                      <p class="font-zdebelen golemina">Април-Октомври 2019</p>
+                      <div class="text-right">
+                        <button
+                          class="btn btn-default btn-danger button-style-karticka"
+                        >
+                          Дознај Повеќе
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xs-12 card-holder developer">
+                    <div class="thumbnail">
+                      <img
+                        src="assets/images/DRHFQYCYRY.jpg"
+                        alt="#"
+                        class="img-kartica-style"
+                      />
+                      <div class="caption">
+                        <button class="btn btn-default bg-color">
+                          Академија за Програмирање
+                        </button>
+                        <h2 class="font-zdebelen">
+                          Име на проектот стои овде во две линии
+                        </h2>
+                        <p>
+                          Краток опис во кој студентите ке можат да опишат за што се
+                          работи во проектот.
+                        </p>
+      
+                        <p class="font-zdebelen golemina">Април-Октомври 2019</p>
+                        <div class="text-right">
+                          <button
+                            class="btn btn-default btn-danger button-style-karticka"
+                          >
+                            Дознај Повеќе
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-xs-12 card-holder developer">
+                      <div class="thumbnail">
+                        <img
+                          src="assets/images/DRHFQYCYRY.jpg"
+                          alt="#"
+                          class="img-kartica-style"
+                        />
+                        <div class="caption">
+                          <button class="btn btn-default bg-color">
+                            Академија за Програмирање
+                          </button>
+                          <h2 class="font-zdebelen">
+                            Име на проектот стои овде во две линии
+                          </h2>
+                          <p>
+                            Краток опис во кој студентите ке можат да опишат за што се
+                            работи во проектот.
+                          </p>
+        
+                          <p class="font-zdebelen golemina">Април-Октомври 2019</p>
+                          <div class="text-right">
+                            <button
+                              class="btn btn-default btn-danger button-style-karticka"
+                            >
+                              Дознај Повеќе
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 card-holder developer">
+                        <div class="thumbnail">
+                          <img
+                            src="assets/images/DRHFQYCYRY.jpg"
+                            alt="#"
+                            class="img-kartica-style"
+                          />
+                          <div class="caption">
+                            <button class="btn btn-default bg-color">
+                              Академија за Програмирање
+                            </button>
+                            <h2 class="font-zdebelen">
+                              Име на проектот стои овде во две линии
+                            </h2>
+                            <p>
+                              Краток опис во кој студентите ке можат да опишат за што се
+                              работи во проектот.
+                            </p>
+          
+                            <p class="font-zdebelen golemina">Април-Октомври 2019</p>
+                            <div class="text-right">
+                              <button
+                                class="btn btn-default btn-danger button-style-karticka"
+                              >
+                                Дознај Повеќе
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 col-xs-12 card-holder developer">
+                          <div class="thumbnail">
+                            <img
+                              src="assets/images/DRHFQYCYRY.jpg"
+                              alt="#"
+                              class="img-kartica-style"
+                            />
+                            <div class="caption">
+                              <button class="btn btn-default bg-color">
+                                Академија за Програмирање
+                              </button>
+                              <h2 class="font-zdebelen">
+                                Име на проектот стои овде во две линии
+                              </h2>
+                              <p>
+                                Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.
+                              </p>
+            
+                              <p class="font-zdebelen golemina">Април-Октомври 2019</p>
+                              <div class="text-right">
+                                <button
+                                  class="btn btn-default btn-danger button-style-karticka"
+                                >
+                                  Дознај Повеќе
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 card-holder developer">
+                            <div class="thumbnail">
+                              <img
+                                src="assets/images/DRHFQYCYRY.jpg"
+                                alt="#"
+                                class="img-kartica-style"
+                              />
+                              <div class="caption">
+                                <button class="btn btn-default bg-color">
+                                  Академија за Програмирање
+                                </button>
+                                <h2 class="font-zdebelen">
+                                  Име на проектот стои овде во две линии
+                                </h2>
+                                <p>
+                                  Краток опис во кој студентите ке можат да опишат за што се
+                                  работи во проектот.
+                                </p>
+              
+                                <p class="font-zdebelen golemina">Април-Октомври 2019</p>
+                                <div class="text-right">
+                                  <button
+                                    class="btn btn-default btn-danger button-style-karticka"
+                                  >
+                                    Дознај Повеќе
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 col-xs-12 card-holder developer">
+                              <div class="thumbnail">
+                                <img
+                                  src="assets/images/DRHFQYCYRY.jpg"
+                                  alt="#"
+                                  class="img-kartica-style"
+                                />
+                                <div class="caption">
+                                  <button class="btn btn-default bg-color">
+                                    Академија за Програмирање
+                                  </button>
+                                  <h2 class="font-zdebelen">
+                                    Име на проектот стои овде во две линии
+                                  </h2>
+                                  <p>
+                                    Краток опис во кој студентите ке можат да опишат за што се
+                                    работи во проектот.
+                                  </p>
+                
+                                  <p class="font-zdebelen golemina">Април-Октомври 2019</p>
+                                  <div class="text-right">
+                                    <button
+                                      class="btn btn-default btn-danger button-style-karticka"
+                                    >
+                                      Дознај Повеќе
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-4 col-xs-12 card-holder developer">
+                                <div class="thumbnail">
+                                  <img
+                                    src="assets/images/DRHFQYCYRY.jpg"
+                                    alt="#"
+                                    class="img-kartica-style"
+                                  />
+                                  <div class="caption">
+                                    <button class="btn btn-default bg-color">
+                                      Академија за Програмирање
+                                    </button>
+                                    <h2 class="font-zdebelen">
+                                      Име на проектот стои овде во две линии
+                                    </h2>
+                                    <p>
+                                      Краток опис во кој студентите ке можат да опишат за што се
+                                      работи во проектот.
+                                    </p>
+                  
+                                    <p class="font-zdebelen golemina">Април-Октомври 2019</p>
+                                    <div class="text-right">
+                                      <button
+                                        class="btn btn-default btn-danger button-style-karticka"
+                                      >
+                                        Дознај Повеќе
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+            <div class="col-md-4 col-xs-12 card-holder design">
+              <div class="thumbnail">
+                <img
+                  src="assets/images/SKBXLJOILI.jpg"
+                  alt="#"
+                  class="img-kartica-style"
+                />
+                <div class="caption">
+                  <button class="btn btn-default bg-color">
+                    Академија за Дизајн
+                  </button>
+                  <h2 class="font-zdebelen">
+                    Име на проектот стои овде во две линии
+                  </h2>
+                  <p>
+                    Краток опис во кој студентите ке можат да опишат за што се
+                    работи во проектот.
+                  </p>
+
+                  <p class="font-zdebelen golemina">Април-Октомври 2019</p>
+                  <div class="text-right">
+                    <button
+                      class="btn btn-default btn-danger button-style-karticka"
+                    >
+                      Дознај Повеќе
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-xs-12 card-holder design">
+                <div class="thumbnail">
+                  <img
+                    src="assets/images/SKBXLJOILI.jpg"
+                    alt="#"
+                    class="img-kartica-style"
+                  />
+                  <div class="caption">
+                    <button class="btn btn-default bg-color">
+                      Академија за Дизајн
+                    </button>
+                    <h2 class="font-zdebelen">
+                      Име на проектот стои овде во две линии
+                    </h2>
+                    <p>
+                      Краток опис во кој студентите ке можат да опишат за што се
+                      работи во проектот.
+                    </p>
+  
+                    <p class="font-zdebelen golemina">Април-Октомври 2019</p>
+                    <div class="text-right">
+                      <button
+                        class="btn btn-default btn-danger button-style-karticka"
+                      >
+                        Дознај Повеќе
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-xs-12 card-holder design">
+                  <div class="thumbnail">
+                    <img
+                      src="assets/images/SKBXLJOILI.jpg"
+                      alt="#"
+                      class="img-kartica-style"
+                    />
+                    <div class="caption">
+                      <button class="btn btn-default bg-color">
+                        Академија за Дизајн
+                      </button>
+                      <h2 class="font-zdebelen">
+                        Име на проектот стои овде во две линии
+                      </h2>
+                      <p>
+                        Краток опис во кој студентите ке можат да опишат за што се
+                        работи во проектот.
+                      </p>
+    
+                      <p class="font-zdebelen golemina">Април-Октомври 2019</p>
+                      <div class="text-right">
+                        <button
+                          class="btn btn-default btn-danger button-style-karticka"
+                        >
+                          Дознај Повеќе
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xs-12 card-holder design">
+                    <div class="thumbnail">
+                      <img
+                        src="assets/images/SKBXLJOILI.jpg"
+                        alt="#"
+                        class="img-kartica-style"
+                      />
+                      <div class="caption">
+                        <button class="btn btn-default bg-color">
+                          Академија за Дизајн
+                        </button>
+                        <h2 class="font-zdebelen">
+                          Име на проектот стои овде во две линии
+                        </h2>
+                        <p>
+                          Краток опис во кој студентите ке можат да опишат за што се
+                          работи во проектот.
+                        </p>
+      
+                        <p class="font-zdebelen golemina">Април-Октомври 2019</p>
+                        <div class="text-right">
+                          <button
+                            class="btn btn-default btn-danger button-style-karticka"
+                          >
+                            Дознај Повеќе
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-xs-12 card-holder design">
+                      <div class="thumbnail">
+                        <img
+                          src="assets/images/SKBXLJOILI.jpg"
+                          alt="#"
+                          class="img-kartica-style"
+                        />
+                        <div class="caption">
+                          <button class="btn btn-default bg-color">
+                            Академија за Дизајн
+                          </button>
+                          <h2 class="font-zdebelen">
+                            Име на проектот стои овде во две линии
+                          </h2>
+                          <p>
+                            Краток опис во кој студентите ке можат да опишат за што се
+                            работи во проектот.
+                          </p>
+        
+                          <p class="font-zdebelen golemina">Април-Октомври 2019</p>
+                          <div class="text-right">
+                            <button
+                              class="btn btn-default btn-danger button-style-karticka"
+                            >
+                              Дознај Повеќе
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 card-holder design">
+                        <div class="thumbnail">
+                          <img
+                            src="assets/images/SKBXLJOILI.jpg"
+                            alt="#"
+                            class="img-kartica-style"
+                          />
+                          <div class="caption">
+                            <button class="btn btn-default bg-color">
+                              Академија за Дизајн
+                            </button>
+                            <h2 class="font-zdebelen">
+                              Име на проектот стои овде во две линии
+                            </h2>
+                            <p>
+                              Краток опис во кој студентите ке можат да опишат за што се
+                              работи во проектот.
+                            </p>
+          
+                            <p class="font-zdebelen golemina">Април-Октомври 2019</p>
+                            <div class="text-right">
+                              <button
+                                class="btn btn-default btn-danger button-style-karticka"
+                              >
+                                Дознај Повеќе
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12  col-sm-12 col-xs-12 bg-color-black text-center">
+          <h3 class="color-white">
+            Изработено со
+            <i class="fa fa-heart heart-red" aria-hidden="true"></i> од
+            студентите на Brainster
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

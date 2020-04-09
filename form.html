@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Brainster - вработи наш студент</title>
+    <meta name="keywords" content="html,css,lekcii" />
+    <meta name="description" content="ova e strana za ucenje" />
+    <meta name="author" content="Ivan Ivanov" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <!-- Latest compiled and minified BOOTSTRAP CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+      <!-- Font-awesome 4.7 cdn -->
+      <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    /> 
+    <!-- Local CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  
+  </head>
+  <body>
+      <div class="main-navbar">
+          <div class="navbar-logo">
+            <a href="https://brainster.co"><img src="assets/images/default.png" alt=""> <br>BRAINSTER</a>
+          </div>
+          <div class="centered-links">
+              <ul >
+                <li>
+                  <a href="https://www.brainster.io/marketpreneurs"
+                    >Академија за маркетинг</a
+                  >
+                </li>
+                <li>
+                  <a href="http://codepreneurs.co/">Академија за програмирање</a>
+                </li>
+                <li>
+                  <a href="https://www.brainster.io/design">Академија за дизајн</a>
+                </li>
+              </ul>
+          </div>
+          <div class="navigation">
+              <div onclick="showSidebar()" class="toggle-nav">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+              </div>
+    
+              <div class="sidebar">
+                  <a onclick="closeSidebar()"><i class="fa fa-times"></i></a>
+                  <a href="https://www.brainster.io/marketpreneurs">Академија за маркетинг</a>
+                  <a href="http://codepreneurs.co/">Академија за програмирање</a>
+                  <a href="https://www.brainster.io/design">Академија за дизајн</a>
+                  <div class="nav-a-sidebar">
+                      <a href="form.html" >Вработи наш студент</a>
+                  </div>
+                   
+              </div>
+          </div>
+          <div class="nav-a">
+              <a href="form.html" >Вработи наш студент</a>
+          </div>
+    
+        </div>
+    <div class="container-fluid bg-color">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center h1-style">Вработи студент</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="row padding-bottom ">
+            <div class="col-md-10 col-md-offset-1">
+              <form >
+                <div class="row">
+                    
+                        <div class="form-group col-md-6">
+                          <label for="exampleInputEmail1">Име и презиме</label>
+                          <input
+                            type="text"
+                            class="form-control padding-style"
+                            id="exampleInputEmail1"
+                            placeholder="Вашето име и презиме"
+                          />
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="exampleInputEmail1">Име на компанија</label>
+                          <input
+                            type="text"
+                            class="form-control padding-style"
+                            id="exampleInputEmail1"
+                            placeholder="Име на вашата компанија"
+                          />
+                        </div>
+                    
+                </div>
+                
+                <div class="row">
+                
+                    <div class="form-group col-md-6">
+                      <label for="exampleInputPassword1">Контакт имејл</label>
+                      <input
+                        type="email"
+                        class="form-control padding-style"
+                        id="exampleInputPassword1"
+                        placeholder="Контакт имејл на вашата компанија"
+                      />
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="exampleInputPassword1">Контакт телефон</label>
+                      <input
+                        type="text"
+                        class="form-control padding-style"
+                        id="exampleInputPassword1"
+                        placeholder="Контакт телефон на вашата компанија"
+                      />
+                    </div>
+                
+                </div>
+                <div class="row">
+                
+                    <div class="form-group col-md-6">
+                      <label for="exampleInputPassword1">Тип на студенти</label>
+                      <div class="div-select">
+                         <select class="form-control my-select " >
+                               <option class="list-item-group">Изберете тип на студент</option>
+                               <option class="list-item-group">Студенти од маркетинг</option>
+                               <option class="list-item-group">Студенти од програмирање</option>
+                               <option class="">Студенти од дизајн</option>
+                           
+                         </select> 
+                      </div>                    
+                  </div>
+                  <div class="form-group col-md-6">
+                      <button type="submit" class="btn form-control form-button col-md-6">Испрати
+                        </button>
+                  </div>
+                
+                  </div>
+                
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 bg-color-black text-center">
+          <h3 class="color-white">Изработено со <i class="fa fa-heart heart-red" aria-hidden="true"></i> од студентите на Brainster</h3>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
